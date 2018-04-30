@@ -1,0 +1,22 @@
+.nav {
+  background: #000;
+  margin: 30px;
+    height: 80px;
+    width: 100%;
+}
+.nav ul{
+  color:#117bff;
+  height: 80px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+.nav ul li{
+
+  height: 80px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 40;
+    float:right;
+
+}
