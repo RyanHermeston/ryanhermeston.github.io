@@ -1,22 +1,50 @@
-.nav {
+
+.page-title{
+  color:gray;
+}
+.container{
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 100 100px;
+}
+.nav{
   background: #000;
-  margin: 30px;
-    height: 80px;
-    width: 100%;
+  height: 5%;
+  width:100%;
+  position:fixed;
 }
+
+/* presently the floating right in the .nav ul makes it so I cant float my reset button left
+perhaps if I float my li elems as opposed tothe entire list then I can get it to work*/
+
 .nav ul{
-  color:#117bff;
-  height: 80px;
-    list-style: none;
-    margin: 0 auto;
-    padding: 0;
-}
-.nav ul li{
-
-  height: 80px;
-    list-style: none;
-    margin: 0 auto;
-    padding: 40;
-    float:right;
+  height: 8%;
+  list-style:none;
+  float:right;
 
 }
+
+ .nav ul li{
+   color: white;
+   display: inline-block;
+   height: 40px;
+   line-height: 40px;
+   list-style: none;
+   padding: 0 10px;
+   transition: background .7s;
+ }
+ .nav ul li:hover{
+   background: 	#00FF00;
+   cursor:pointer;
+   transition: background .7s;
+ }
+
+ .rstButton{
+  color:white;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 40px;
+  list-style: none;
+  padding: 0 10px;
+  float:left;
+ }
